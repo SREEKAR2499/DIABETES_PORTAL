@@ -56,7 +56,7 @@ export const uploadRiskData = async (req, res) => {
 
             // Send API call to diabetes prediction service
             const predictionResponse = await axios.post(
-                "https://diabetes-prediction-y9ho.onrender.com/predict",
+                "https://ml-diabetes-ou4z.onrender.com/predict",
                 { features }
             );
 
